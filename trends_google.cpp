@@ -3,12 +3,15 @@
 #include "config.hpp"
 #include "MycURL.hpp"
 
-int main( int argn, const char *argv[] )
+int main( int argc, const char *argv[] )
 {
-	curl_global_init( CURL_GLOBAL_ALL ); // required once
+	stringstream url;
+	if ( argc > 1 ) url << urlRss << "?geo=" << argv[1];
+	else url << urlRss << "?geo=US"; // default US
 
+	curl_global_init( CURL_GLOBAL_ALL ); // required once
 	MycURL curl;
-	SetOpt_URL( curl, url );
+	SetOpt_URL( curl, url.str() );
 	string rss = RequestGet( curl );
 
 	const string titleBegin = "<title>";
