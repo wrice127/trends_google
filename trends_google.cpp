@@ -16,8 +16,8 @@ int main( int argc, const char *argv[] )
 
 	const string titleBegin = "<title>";
 	const string titleEnd = "</title>";
-	size_t lastPos = 0;
-	while ( true ) {
+	size_t lastPos = rss.find( titleEnd ) + titleEnd.size(); // skip the first
+	while ( lastPos != string::npos ) {
 		const size_t posBegin = rss.find( titleBegin, lastPos );
 		const size_t posEnd = rss.find( titleEnd, lastPos );
 		if ( posBegin == string::npos || posEnd == string::npos ) break;
