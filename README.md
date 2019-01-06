@@ -9,7 +9,7 @@ In order to compile the code, you need libcurl installed.
 
 ## How to run:
 1. Compile the code with `make`,
-2. Run the program with `./trends_google`.
+2. Run the program with `./trends_google` or `./trends_google US`.
 
 Note: if the RSS feed url changed, you may need to modify `config.hpp`.
 
