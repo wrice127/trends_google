@@ -22,7 +22,7 @@ int main( int argn, const char *argv[] )
 
 		const size_t posBeginInner = posBegin + titleBegin.size();
 		string title = rss.substr( posBeginInner, posEnd - posBeginInner );
-		cout << '"' << title << '"' << endl;
+		cout << title << endl;
 	}
 	return 0;
 }

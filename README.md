@@ -17,27 +17,27 @@ Note: if the RSS feed url changed, you may need to modify `config.hpp`.
 ## Output example:
 `$ ./trends_google`
 ```
-"Daily Search Trends"
-"Eric Black Jr"
-"Golden Globes 2019 date"
-"Super Bowl 2019 time"
-"Kliff Kingsbury"
-"Colts"
-"NFL games today"
-"NFL schedule"
-"Queen Elizabeth death"
-"Ravens"
-"Football"
-"Drake"
-"Warriors vs Kings"
-"Frank Reich"
-"Booger McFarland"
-"FA Cup"
-"ESPN NFL"
-"Kendall Jenner"
-"Bryce Turner"
-"NFL football"
-"Football today"
+Daily Search Trends
+Eric Black Jr
+Golden Globes 2019 date
+Super Bowl 2019 time
+Kliff Kingsbury
+Colts
+NFL games today
+NFL schedule
+Queen Elizabeth death
+Ravens
+Football
+Drake
+Warriors vs Kings
+Frank Reich
+Booger McFarland
+FA Cup
+ESPN NFL
+Kendall Jenner
+Bryce Turner
+NFL football
+Football today
 ```
 
 
