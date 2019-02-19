@@ -5,6 +5,10 @@ It is written in C++ with curl library.
 
 ## Requirements:
 In order to compile the code, you need libcurl installed.
+```
+sudo apt-get install g++-4.9
+sudo apt-get install libcurl4-openssl-dev
+```
 
 
 ## How to run:
